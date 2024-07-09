@@ -1,0 +1,462 @@
+:root {
+    --a: 0;
+    --b:0;
+    --c:0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+::selection {
+    background-color: #ea580c;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    font-size: larger;
+
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+    cursor: pointer;
+    background-color: #FEFEFE;
+    box-shadow: 1px 1px 55px rgba(0, 0, 0, 0.421);
+}
+
+.logo img {
+    width: 10vw;
+}
+
+.navoption li {
+    list-style: none;
+
+}
+.navoption li:hover{
+    color: #ea580c;
+}
+
+.navoption {
+    display: flex;
+    gap: 1vw;
+    font-family: 'Barlow';
+    font-size: medium;
+    font-weight: 600;
+}
+
+select {
+    border: none;
+    font-size: medium;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    background: transparent;
+    outline: none;
+
+}
+
+.navdownload {
+    display: flex;
+    color: white;
+    /* filter: invert(1); */
+    background-color: #ea580c;
+    padding: 9px;
+    border-radius: 25px;
+    font-size: medium;
+    gap: 5px;
+    font-weight: 550;
+
+}
+
+.section2 {
+    /* width: 100vw; */
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    background-color: #F4F4F5;
+}
+
+.carousel {
+    width: 55vw;
+    height: 100vh;
+}
+#carouselExampleAutoplaying > div{
+    filter: brightness(0.5);
+}
+
+.carousel-right-text {
+    width: 40vw;
+
+}
+
+/* .carousel-inner h1 , p{
+    color: black;
+} */
+.carousel-item span {
+    color: black;
+    position: relative;
+    top: -32vh;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.carousel-item span h1 {
+    font-weight: 700;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    gap: -9vw;
+    background: #551d1d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 14%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+
+#carouselExampleInterval>button.carousel-control-next {
+    background: red;
+    transform: translateX(-14vw);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px
+}
+
+#carouselExampleInterval>button.carousel-control-prev {
+    background: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+
+}
+#hrthin{
+
+        margin: 0;
+    
+}
+.section3 {
+    overflow-x: hidden;
+    background-color: #F4F4F5;
+    overflow-y: hidden;
+}
+
+.sec3main {
+    display: inline-flex;
+    font-size: xx-large;
+    gap: 5vw;
+    flex-wrap: nowrap;
+    animation: slidetext 115s infinite linear;
+
+    font-weight: 600;
+    align-items: center;
+    height: 14vh;
+}
+
+.sec3main div {
+    display: inline;
+    text-wrap: nowrap;
+}
+
+.section4 {
+    text-align: center;
+    height: 20vh;
+    margin-top: 14vh;
+}
+
+.section4 div {
+
+    color: #ea580c;
+    background-color: #F2D5C6;
+    border: 1px solid #ea580c;
+    width: max-content;
+    margin: auto;
+    padding: 0 7px;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 3vw; */
+    font-family: Barlow;
+
+}
+
+.col {
+    width: 25vw;
+    /* margin-bottom: 15vh; */
+    /* margin: 7vh 0; */
+    border: 0.2px solid rgba(186, 186, 186, 0.203);
+    height: 44vh;
+    padding: 25px;
+}
+
+.section5 img {
+    width: 3vw;
+    margin-bottom: 15px;
+}
+
+.section5 p {
+    text-wrap: wrap;
+    font-weight: 500;
+}
+
+.section5 .col1,
+.col2,
+.col3 {
+    width: 25vw;
+
+}
+.readmore{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    
+   
+}
+.fa-arrow-right{
+    opacity: var(--a);
+    transition: opacity 0.3s ease-in-out ; 
+   
+}
+.readmore:hover{
+    --a:1;
+    transition: opacity 0.5s ;
+    
+}
+.section6{
+    height: 30vh;
+}
+.section6main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    /* flex-wrap: nowrap; */
+    
+}
+/* .section6main img{
+    width: 50vw;
+    border-radius: 15px;
+    filter: brightness(0.5);
+} */
+.container1{
+    background:url('https://themes.coderthemes.com/aeropage/assets/img-5-E_y3HHFG.jpg');
+}
+
+.container2{
+    background: url('https://themes.coderthemes.com/aeropage/assets/img-2-C7R-66lJ.jpg');
+}
+.container3{
+    background: url('https://themes.coderthemes.com/aeropage/assets/img-4-BNMmoe2M.jpg');
+}
+.container1 , .container2 ,.container3{
+    background-size: 60vw;
+    filter: brightness(0.5);
+    border-radius: 15px;
+
+}
+.imgcontainer{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand-coder {
+    
+    color: white;
+    text-align: center;
+    
+    font-size: larger;
+    font-family: 'Barlow';
+    font-weight: 600;
+    opacity: var(--b);
+    transition: opacity 0.5s ease-in-out ; 
+   
+}
+.container2:hover{
+    --b:1;
+    transition: opacity 0.5s ;
+}
+.brand-coder div{
+    background-color: black;
+   
+}
+body > div.section3 > div.section6main > div:nth-child(2) > div > div > div:nth-child(1){
+    margin: 9px;
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Barlow;
+    gap: 2vw;
+}
+.section7right img{
+    width: 40vw;
+    filter: brightness(0.4);
+    border-radius: 15px;
+}
+.section7service{
+    position: relative;
+    height: 6vh;
+}
+.section7service div{
+    position: absolute;
+}
+.section7left p{
+    text-wrap: wrap;
+    font-weight: 500;
+    width: 30vw;
+}
+.menu{
+    display: flex;
+    background-color: #FAFAFA;
+}
+.menucol{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menucol img{
+    border: 1px solid #0000001a;
+    padding: 11px;
+    padding: 10px;
+   border-radius: 5px;
+   stroke-width: red 2px;
+   
+}
+.menucol img:hover{
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(329deg);
+}
+.section9{
+    height: 20vh;
+    border: 1px solid black;
+}
+.section9main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    color: #ea580c;
+    text-transform: capitalize;
+}
+
+
+/* :hover{
+    fill: #ea580c;
+} */
+@keyframes slidetext {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* ----------------Media Query--------------- */
+
+@media screen and (max-width: 781px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    .logo {
+        min-width: 5vw;
+    }
+    .navoption {
+        display: flex;
+        gap: 1vw;
+        font-family: 'Barlow';
+        font-size: x-small;
+        font-weight: 600;
+        flex-wrap: wrap;
+
+    }
+    .carousel-item span{
+        position: initial;
+    }
+    span h1{
+        font-size: small;
+        margin-bottom: 0;
+        
+    }
+    span p{
+        font-size: xx-small;
+    }
+    .navdownload{
+        padding: 2px;
+        font-size: x-small;
+    }
+    .section2{
+        display: block;
+
+    }
+    .carousel{
+        width: 100vw;
+        height: 24vh;
+    }
+    .carousel-right-text{
+        width: 100vw;
+        margin-top: 13vh;
+    }
+    #carouselExampleInterval>button.carousel-control-next{
+        transform: translateX(0);
+    }
+    .section5{
+        font-size: x-small;
+    }
+    .col h3{
+        font-size: small;
+    }
+    .readmore h5{
+        font-size: small;
+    }
+    .imgcontainer {
+        width: 50vw;
+        height: 23vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        /* margin-bottom: 0vh; */
+        background-size: cover;
+    }
+    .section7right img{
+        display: none;
+    }
+    .section7left p {
+        text-wrap: wrap;
+        font-weight: 500;
+        width: 92vw;
+    }
+}

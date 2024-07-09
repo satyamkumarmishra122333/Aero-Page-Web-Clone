@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    font-size: larger;
+
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+
+}
+
+.logo img {
+    width: 10vw;
+}
+
+.navoption li {
+    list-style: none;
+
+}
+
+.navoption {
+    display: flex;
+    gap: 1vw;
+    font-family: 'Barlow';
+    font-size: medium;
+    font-weight: 600;
+}
+
+select {
+    border: none;
+    font-size: medium;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+
+}
+
+.navdownload {
+    display: flex;
+    color: white;
+    /* filter: invert(1); */
+    background-color: #ea580c;
+    padding: 9px;
+    border-radius: 25px;
+    font-size: medium;
+    gap: 5px;
+    font-weight: 550;
+
+}
+.section2{
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel{
+    width: 60vw;
+}
+.carousel-right-text {
+    width: 40vw;
+    color: black;
+    display: inline-flex;
+    overflow: hidden; /* Ensure only one div is visible at a time */
+    position: relative; /* Required for absolute positioning */
+}
+
+.carousel-right-text div {
+    width: 100%; /* Ensure full width of the container */
+    position: absolute; /* Position each div absolutely */
+    top: 0;
+    left: 0;
+    animation: slideRight 5s linear infinite  ; /* Apply animation */
+   
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%); /* Start and end positions */
+    }
+    to {
+        transform: translateX(-100%); /* Slide each div right */
+    }
+   
+}
